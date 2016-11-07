@@ -1,0 +1,159 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  h1 {
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    img {
+      display: block;
+      max-width: 100%;
+      width: 20%;
+      margin: 0 auto;
+    }
+  }
+a {
+  text-decoration: none;
+  color: black;
+}
+  .container {
+    nav {
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      width: 39%;
+      a {
+      text-decoration: none;
+      box-sizing: border-box;
+      padding: 0 1rem;
+
+      // &:nth-of-type(2n) {
+      //   border-left: 1px solid gray;
+      // }
+    }
+    .logout {
+      font-family: 'Open Sans Condensed', sans-serif;
+      background: black;
+      border-radius: 25%;
+      color: white;
+    }
+    }
+
+    .login-form {
+      margin: 0 auto;
+      text-align: center;
+      background: #006699;
+      padding: 1rem 2rem;
+
+      input {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+      }
+      .submit {
+        font-family: 'Open Sans Condensed', sans-serif;
+        border-radius: 25%;
+      }
+    }
+    .signup-form {
+      margin: 0 auto;
+      text-align: center;
+      background: #006699;
+      padding: 1rem 2rem;
+
+      input {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+      }
+      textarea {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 20px;
+      }
+      .submit {
+        font-family: 'Open Sans Condensed', sans-serif;
+        border-radius: 25%;
+      }
+    }
+    .squeak-form {
+      text-align: center;
+      border-bottom: 1px solid gray;
+      padding-bottom: 2rem;
+      .submit {
+        font-family: 'Open Sans Condensed', sans-serif;
+        border-radius: 25%;
+      }
+    }
+    .squeak-list {
+      background: #006699;
+      box-sizing: border-box;
+      padding: 1rem 0;
+      li {
+        list-style: none;
+        border: 1px dashed white;
+        padding: 1rem;
+        margin: 1rem;
+        background: white;
+        border-radius: 10%;
+      .delete {
+        background: red;
+        border-radius: 25%;
+        color: white;
+        font-family: 'Open Sans Condensed', sans-serif;
+        float: right;
+      }
+      }
+    }
+    .profile-name {
+      background: white;
+      width: 30%;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 50%;
+      color: black;
+    }
+    .profile-div {
+        background: #006699;
+        padding: 1rem;
+        color: white;
+        border-radius: 30%;
+      img {
+        max-width: 100%;
+        border-radius: 25%;
+      }
+    }
+    .profile-posts {
+
+      li {
+        list-style: none;
+        border: 1px dashed white;
+        padding: 1rem;
+      }
+    }
+  }
+}
+@media(min-width: 380px) {
+  .profile-div {
+    text-align: center;
+  }
+}
+@media(min-width: 930px) {
+
+  .profile-div {
+    width: 46%;
+    display: inline-block;
+    margin: 0;
+  }
+  .profile-posts {
+    width: 46%;
+    float: right;
+    display: inline-block;
+    margin: 0;
+  }
+}
